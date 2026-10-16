@@ -1,0 +1,11 @@
+# Nmap 7.99 scan initiated Fri Oct 16 07:20:01 2026 as: /usr/lib/nmap/nmap --privileged -sT -p 22,80,443,8000 -oN scan_multiple_ports.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00024s latency).
+
+PORT     STATE  SERVICE
+22/tcp   closed ssh
+80/tcp   closed http
+443/tcp  closed https
+8000/tcp open   http-alt
+
+# Nmap done at Fri Oct 16 07:20:01 2026 -- 1 IP address (1 host up) scanned in 0.02 seconds
